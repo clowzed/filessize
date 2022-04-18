@@ -1,0 +1,14 @@
+[package]
+name        = "filessize"
+version     = "0.1.0"
+edition     = "2021"
+description = "Cli util for retriving size of files"
+license     = "MIT"
+repository  = "https://github.com/clowzed/filessize.git"
+authors     = ["Dmitry Miasnenko <clowzed.work@gmail.com>"] 
+
+
+[dependencies]
+kib         = "4.0.0"
+comfy-table = "6.0.0-rc.1"
+glob        = "0.3.0"
