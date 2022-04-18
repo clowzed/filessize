@@ -2,6 +2,9 @@
 
 <h3 align = "center">Cli tool for checking size of files</h3>
 
+[![Filessize build](https://github.com/clowzed/filessize/actions/workflows/rust.yml/badge.svg)](https://github.com/clowzed/filessize/actions/workflows/rust.yml)
+![Downloads](https://img.shields.io/crates/d/filessize?color=green)
+
 <div align = "center">
 <img align = "center" src="./demo.png"/>
 </div>
@@ -32,3 +35,4 @@ mv ./target/release/filessize /your/bin/dir
 ```bash
 filessize <any-pattern> <another-pattern> <or-filename>
 ```
+ 
